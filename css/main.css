@@ -1,0 +1,34 @@
+body {
+  background-color: #FFCC00;
+}
+h1 {
+  color: purple;
+  background-color: yellow;
+  text-align: right;
+}
+.banner {
+  max-width: 49%;
+}
+.facts li {
+  color: blue;
+  font-weight: bold;
+}
+
+.lies {
+  border: 3px solid red;
+}
+
+li.urgent {
+  color: red;
+}
+
+@media only screen and (max-width: 600px) {
+
+  body {
+    background: blue;
+  }
+  .banner {
+    max-width: 100%
+  }
+
+}
